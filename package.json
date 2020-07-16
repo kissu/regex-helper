@@ -1,0 +1,13 @@
+{
+  "name": "regex-helper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "devDependencies": {
+    "csv-parser": "^2.3.3"
+  }
+}
