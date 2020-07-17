@@ -12,7 +12,7 @@ fs.createReadStream('input.csv').pipe(csv())
     // console.log(wholeString);
     const matchedString = wholeString.match(regex)
     if (/[A-Za-z]/.test(matchedString)) {
-      const result = matchedString.join(',').replace(';', '').concat('\n')
+      const result = matchedString.join(',').replace(';,', ';').concat('\n')
       console.log(result)
       fs.appendFileSync('output.csv', result)
     }
